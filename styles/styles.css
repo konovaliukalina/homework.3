@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+}
+.content {
+width: 350px;
+height: 500px;
+border: 2px solid black;
+margin: 30px;
+border-radius: 25px;
+}
+
+.content img {
+margin-top: 25px;
+width: 80px;
+height: 80px;
+margin-left: 130px;;
+}
+
+.content h2 {
+font-size: 30px;
+text-align: center;
+}
+
+.content p {
+font-size: 20px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.content a {
+text-decoration: none;
+background-color: black;
+color: white;
+border-radius: 7px;
+font-size: 25px;
+margin-left: 75px;
+padding: 5px 25px;
+}
+
+.content:hover {
+background-color: pink;
+color: white;
+}
+
+.content a:hover {
+background-color: red;
+color: brown;
+}
